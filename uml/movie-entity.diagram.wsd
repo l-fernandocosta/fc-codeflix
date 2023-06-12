@@ -1,0 +1,17 @@
+@startuml movie-entity
+entity Movie 
+
+Movie : uuid id
+Movie : string name
+Movie : string description
+Movie : boolean is_active
+Movie : date created_at
+
+Movie :  create()
+Movie :  update()
+Movie :  activate()
+Movie :  deactivate()
+Movie :  delete()
+
+@enduml
+
